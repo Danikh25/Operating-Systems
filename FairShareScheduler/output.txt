@@ -1,0 +1,14 @@
+Time 1, User A, Process 1, started
+Time 5, User A, Process 1, paused
+Time 5, User A, Process 1, resumed
+Time 6, User A, Process 1, finished
+Time 6, User A, Process 0, started
+Time 7, User A, Process 0, paused
+Time 7, User B, Process 0, started
+Time 9, User B, Process 0, paused
+Time 9, User A, Process 0, resumed
+Time 11, User A, Process 0, finished
+Time 11, User B, Process 0, resumed
+Time 13, User B, Process 0, paused
+Time 13, User B, Process 0, resumed
+Time 15, User B, Process 0, finished
