@@ -1,6 +1,6 @@
 # Operating-Systems
 
-## CLI:
+## **CLI**:
 A Command Line Interpreter
 • Echo param: prints the parameter given as argument to appropriate streams (file, shell screen).
 • Exit: to exit the program.
@@ -8,7 +8,7 @@ A Command Line Interpreter
 same name already exists it deletes it and creates a new one.
 • Command ->> filename: appends the output of command to a file with name filename. If the file does not already exist, it creates it
 
-## Fair Share Scheduler
+## **Fair Share Scheduler**:
 
 Implementing the simulation of a process scheduler that is responsible for scheduling a given list of processes that belongs to a given list of users running on one CPU. The scheduling runs in a fair-share scheduling and works as follow:
 
@@ -17,7 +17,7 @@ Implementing the simulation of a process scheduler that is responsible for sched
 • the scheduler distributes each user’s time share equally between processes that belong to that user
 • there is no priority on users and processes
 
-## Virtuak Memory Management
+## **Virtuak Memory Management**:
 
 • *Store* (any variable): This instruction stores the given variable id and its value in the first unassigned spot in the memory.
 
