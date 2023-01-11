@@ -20,5 +20,7 @@ Implementing the simulation of a process scheduler that is responsible for sched
 ## Virtuak Memory Management
 
 • *Store* (any variable): This instruction stores the given variable id and its value in the first unassigned spot in the memory.
+
 • *Release* (string variableId): This instruction removes the variable id and its value from the memory so the page becomes available inn the memory
+
 • *Lookup* (string variableId): This instruction checks if the given variableId is stored in the memory and returns its value or -1 if it does not exist. If the Id does exist it returns its value. If a page fault occurs, then it should move this variable into the memory and release the assigned page in the virtual memory. If no spot is available in the memory, program needs to swap this variable with the variable with smallest Last Access time, in the main memory.
