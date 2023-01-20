@@ -17,7 +17,7 @@ Implementing the simulation of a process scheduler that is responsible for sched
 • the scheduler distributes each user’s time share equally between processes that belong to that user
 • there is no priority on users and processes
 
-## **Virtuak Memory Management**:
+## **Virtual Memory Management**:
 
 • *Store* (any variable): This instruction stores the given variable id and its value in the first unassigned spot in the memory.
 
